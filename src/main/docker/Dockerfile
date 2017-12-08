@@ -5,4 +5,4 @@ COPY /jax-rs-2.0-cxf-metrics*.jar /
 
 EXPOSE 19090
 
-CMD  java -jar `ls /*.jar`
+CMD  java -Xmx192m -jar `ls /*.jar`
